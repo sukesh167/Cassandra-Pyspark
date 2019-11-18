@@ -1,7 +1,7 @@
 # Cassandra-Pyspark
 Assignment done as part of a coursework
 
-##The Dataset - supermarket.csv is loaded in cassandra and the data in csv is converted to a database table using the following code:- 
+## The Dataset - supermarket.csv is loaded in cassandra and the data in csv is converted to a database table using the following code:- 
 
 #### Creating a keyspace 'dba' with columnfamily 'sprmkts', copying the csv le into the columnfamily
 
@@ -47,4 +47,4 @@ cqlsh:dba> COPY dba.sprmkts
 cqlsh:dba> SELECT * FROM dba.sprmkts;
 ```
 
-Pyspark is setup in a server and is configured with jupyter and the codes in ML-DA_Pyspark-Cassandra.ipynb are executed
+## Pyspark is setup in a server and is configured with jupyter and the codes in ML-DA_Pyspark-Cassandra.ipynb are executed
