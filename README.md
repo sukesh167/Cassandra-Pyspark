@@ -1,9 +1,8 @@
 # Cassandra-Pyspark
 Assignment done as part of a coursework
 
-The Dataset - supermarket.csv is loaded in cassandra and the data in csv is converted to a database table using the following code:- 
+##The Dataset - supermarket.csv is loaded in cassandra and the data in csv is converted to a database table using the following code:- 
 
-##Cassandra Code:
 #### Creating a keyspace 'dba' with columnfamily 'sprmkts', copying the csv le into the columnfamily
 
 ```
